@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>자바스크립트의 연산</title>
+    <script>
+    var a=30, b, c, d, e, f, g, h='안', i='지현';
+     // a=30 은 값의 초기화 라고 함. 가장 초기 값을 입력하는 것.  
+     // b, c, d, e, f, g 처럼 값이 없는 기억장소를 null이라고 한다.
+        
+    b=parseInt(prompt("숫자를 입력해주세요")); // 입력창 호출, 값을 입력 받아서 b로 저장하시오. ex)20 입력
+    c=a+b; // a+b의 값을 c로 저장하시오. 50
+    d=a-b; // a-b의 값을 d로 저장하시오. 10
+    e=a*b; // 곱하기 600
+    f=a/b; // 나누기 1.5 parseInt(1.5) => 1
+    g=a%b //나머지 10
+        
+    function prt1() {  //함수를 정의하는 방법1
+        document.write("<br>a+b="+c); //a+b=50
+        document.write("<br>a-b="+d); //a-b=10
+        document.write("<br>a*b="+e); //a*b=600
+        document.write("<br>a*b="+e); //a*b=600
+        
+    }
+    var prt2 = function() { //함수를 정의하는 방법2
+        document.write("<br>a/b="+g); //a/b=1.5
+        document.write("<br>a%b="+f); //a%b=10
+        document.write("<br>h+i"+h+i);    //h+i=김기태
+    };
+    </script>
+</head>
+<body>
+    <script>
+        prt2(); //함수 호출
+        prt1(); //함수 호출
+    </script>    
+</body>
+</html>
