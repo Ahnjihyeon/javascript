@@ -1,0 +1,12 @@
+child는 index처럼 0부터 시작하지 않음. lt, gt, eq 같은 곳에서 index처럼 0부터 시작.
+
+EXAMPLE02-13 인터렙션 요소. 중요함
+
+jQuery에서 attribute는 태그의 속성을 의미한다. 프로퍼티는 css의 속성을 의미한다.
+
+chap1. Javascript 기본
+chap2. jQuery 선택자 문법
+chap3. jQuery 기본 메서드
+
+선택자로 못하는 것을 무조건 선택할 수 있게 해주는 것; 탐색 메서드
+$(this).next().removeAttr("src");  // next는 +와 같은 역할을 한다. this옆에 +를 쓸 수 없기 때문에 next를 쓴다.

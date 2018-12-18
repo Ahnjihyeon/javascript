@@ -1,0 +1,19 @@
+1211 수업내용
+ch03
+jQuery 메소드 배우기
+css
+httl
+오늘
+addClass
+toggleClass - On/Off와 같은 기능.있으면 제거. 없으면 추가
+removeClass
+hasClass - 가지고 있는지 점검하는 기능. 있으면 true, 없으면 false를 리턴. 참이면 아래를 실행, 거짓이면 else if로 넘어가기
+text method
+html method
+문제 해결 능력을 키우자 
+
+ch04
+탐색메서드
+
+.add -> 태그 추가
+.filter -> 선택자 추가 (filter의 반대 -> .not)
